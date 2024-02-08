@@ -9,13 +9,26 @@ CLASSY ANIMALS (5pts)
      * Add an eat() method for Animal that prints 'Munch munch.'
      * Add a make_noise() method for Animal that prints 'Grrr says [animal name].'
 
-     
+'''
+import random
+
+new*
+class Animal():
+    new*
+    def __init__(self):
+
+
+'''
  B. Write code that defines a class named Cat:
      * Make Animal the parent.
      * Add a constructor for Cat that prints 'A cat has been born.'
      * Modify the constructor so it calls the parent constructor as well.
      * Add a make_noise() method for Cat that prints 'Meow says [animal name].'
 
+'''
+
+
+'''
      
  C. Write code that defines a class named Dog:
      
@@ -113,6 +126,16 @@ In the main program, use a for loop to call the Circle class and draw it 1000 ti
 Feel free to see what happens if you draw it 10,000 times as well.
 '''
 
+new
+class Circle():
+    new
+    def __init__(self):
+        self.x = random.randint(0,50)
+        self.y = random.randint(0,50)
+        self.color = (random.randint(0,255),random.randint(0,255),random.randint(0,255))
+        self.radius = 10
+    new
+    def draw_circle:
 
 
 
